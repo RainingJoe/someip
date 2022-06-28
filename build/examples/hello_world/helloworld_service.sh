@@ -1,0 +1,3 @@
+VSOMEIP_CONFIGURATION=./helloworld-local.json
+VSOMEIP_APPLICATION_NAME=hello_world_service
+./hello_world_service
