@@ -116,3 +116,10 @@ PRODUCT_PACKAGES += \
     libvsomeip_cfg \
     libvsomeip_sd
 ```
+Plus:
+   someip/examples/hello_world该路径下有一份demo源码，编译方法如下:
+   在someip/build文件夹下执行: cmake --build . --target hello_world
+   然后cd ./examples/hello_world/ 再执行make
+   参考了下面这篇文章:
+   https://dev-docs.csdn.net/articles/b6822147ab3f4e61b5d16e008b35b31f/https-ros
+   有些区别就是，我看了下源码编译后的二进制文件直接可以执行，不需要配置json文件。
