@@ -55,8 +55,9 @@ public:
                 SAMPLE_EVENT_ID,
                 its_groups,
                 vsomeip::event_type_e::ET_FIELD);
+        std::cout<<"raining: enter "<<__LINE__<<std::endl;
         app_->subscribe(SAMPLE_SERVICE_ID, SAMPLE_INSTANCE_ID, SAMPLE_EVENTGROUP_ID);
-
+        std::cout<<"raining: enter "<<__LINE__<<std::endl;
         return true;
     }
 

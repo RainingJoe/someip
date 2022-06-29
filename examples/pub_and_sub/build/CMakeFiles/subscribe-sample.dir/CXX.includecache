@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raining/Learning/vsomeip/someip/examples/pub_and_sub/sample-ids.hpp
+
+/home/raining/Learning/vsomeip/someip/examples/pub_and_sub/subscribe-sample.cpp
+csignal
+-
+chrono
+-
+condition_variable
+-
+iomanip
+-
+iostream
+-
+sstream
+-
+thread
+-
+vsomeip/vsomeip.hpp
+-
+sample-ids.hpp
+/home/raining/Learning/vsomeip/someip/examples/pub_and_sub/sample-ids.hpp
+

@@ -123,6 +123,7 @@ public:
     }
 
     void on_get(const std::shared_ptr<vsomeip::message> &_message) {
+        std::cout<<"raining: enter "<<__FUNCTION__<<std::endl;
         std::shared_ptr<vsomeip::message> its_response
             = vsomeip::runtime::get()->create_response(_message);
         {
@@ -133,6 +134,7 @@ public:
     }
 
     void on_set(const std::shared_ptr<vsomeip::message> &_message) {
+        std::cout<<"raining: enter "<<__FUNCTION__<<std::endl;
         std::shared_ptr<vsomeip::message> its_response
             = vsomeip::runtime::get()->create_response(_message);
         {

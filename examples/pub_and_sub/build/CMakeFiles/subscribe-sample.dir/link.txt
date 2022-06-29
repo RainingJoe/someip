@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/subscribe-sample.dir/subscribe-sample.cpp.o  -o subscribe-sample  -lvsomeip3 -lpthread 
