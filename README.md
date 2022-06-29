@@ -123,3 +123,8 @@ Plus:
    参考了下面这篇文章:
    https://dev-docs.csdn.net/articles/b6822147ab3f4e61b5d16e008b35b31f/https-ros
    有些区别就是，我看了下源码编译后的二进制文件直接可以执行，不需要配置json文件。
+   
+   pub_and_sub的demo编译执行方法如下:
+   进入someip/examples/pub_and_sub/build下执行:
+   cmake ..
+   然后再执行make即可得到target: notify-sample  subscribe-sample，这些二进制文件可以直接执行。
